@@ -1,0 +1,19 @@
+- Reading data from database using Models_ CodeIgniter
+- Email Library in CodeIgniter 4 _ Sending an email from localhost
+- Form Validations in CodeIgniter 4
+- Forget password
+- Reset password
+
+- Need to allow google chrome to access sending mail
+- need to add updated_at in database
+
+- need to change write permission
+/var/www/html/Gophp/gophp-24-dec-2020# chmod -R 777 writable/
+chmod -R +x gophp-24-dec-2020/ 
+ls -la
+
+php myadmin
+root
+password
+
+- show photo in activity log    ok
