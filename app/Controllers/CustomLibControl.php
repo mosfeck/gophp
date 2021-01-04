@@ -10,6 +10,9 @@ class CustomLibControl extends BaseController{
 
     public function index()
     {
-        return $this->tl->getData();
+        $data = $this->tl->getData();
+        echo '<pre>';
+        print_r($data);
+        echo '<pre>';
     }
 }
