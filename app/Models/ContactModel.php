@@ -4,7 +4,9 @@ use CodeIgniter\Model;
 
 class ContactModel extends Model
 {
-    
+    protected $table = 'contact_tbl';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['uname', 'email', 'mobile', 'message'];
     // public function getUserslist()
     // {
     //     $db = \Config\Database::connect();
