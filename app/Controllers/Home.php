@@ -5,16 +5,28 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('layouts/main');
+		$data = [
+            'page_title'=>'My blog title',
+			'page_heading'=>'My blog heading'
+		];
+
+
+		return view('layouts/main', $data);
 	}
 
-	// function validation()
-	// {
-	// 	$shop = new Shop();
-	// 	echo $shop->product('Laptop','Lenovo').'</br>';
+	public function form()
+	{
+		helper('form');
+		$data = [
+            'page_title'=>'My blog title',
+			'page_heading'=>'My blog heading'
+		];
 
-	// 	$adminShop = new adminShop();
-	// 	echo $adminShop->product('Laptop','Lenovo');
-	// }
+
+		return view('form', $data);
+	}
+
+
+	
 
 }
