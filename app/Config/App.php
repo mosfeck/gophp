@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/Gophp/gophp-06-Jan-2021/';
+	public $baseURL = 'http://localhost/Gophp/gophp-07-Jan-2021/';
 
 	/*
 	|--------------------------------------------------------------------------
